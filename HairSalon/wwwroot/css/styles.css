@@ -1,3 +1,12 @@
 h1 {
-  color: blue;
+  color: #007bff;
+}
+
+body {
+  background-color: papayawhip;
+}
+
+.jumbotron {
+  background-image: url("../img/hair.jpg");
+  background-size: cover;
 }
