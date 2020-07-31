@@ -20,6 +20,7 @@
     <li>@client.ClientName : @client.ClientPhoneNumber</li>
   }
 </ul>
+<p>@Html.ActionLink("Add client", "Create", "Clients", new {id = Model.StylistId })</p>
 <p>@Html.ActionLink("Edit stylist", "Edit", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Delete stylist", "Delete", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Back to stylists", "Index")</p>

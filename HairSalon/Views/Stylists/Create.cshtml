@@ -6,9 +6,9 @@
 
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.StylistName, "Name: ")
-  @Html.TextBoxFor(model => model.StylistName)
-  <input type="submit" value="Add a new stylist"/>
+  @Html.LabelFor(model => model.StylistName, "Name:")
+  @Html.TextBoxFor(model => model.StylistName, null, new { required = "required" })
+  <input type="submit" value="Add a new stylist" class="btn btn-primary"/>
 }
 
 <p>@Html.ActionLink("Show all stylists", "Index")</p>
