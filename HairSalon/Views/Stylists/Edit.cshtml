@@ -11,7 +11,7 @@
   @Html.HiddenFor(model => model.StylistId)
   @Html.LabelFor(model => model.StylistName, "Name")
   @Html.EditorFor(model => model.StylistName)
-  <input type="submit" value="Save"/>
+  <input type="submit" value="Save" class="btn btn-primary"/>
 }
 
 <p>@Html.ActionLink("Back to stylists", "Index")</p>
